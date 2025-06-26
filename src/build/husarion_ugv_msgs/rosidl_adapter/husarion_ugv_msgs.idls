@@ -1,0 +1,16 @@
+/home/nfl/husarion_rusak/src/build/husarion_ugv_msgs/rosidl_adapter/husarion_ugv_msgs:msg/ChargingStatus.idl
+/home/nfl/husarion_rusak/src/build/husarion_ugv_msgs/rosidl_adapter/husarion_ugv_msgs:msg/DriverState.idl
+/home/nfl/husarion_rusak/src/build/husarion_ugv_msgs/rosidl_adapter/husarion_ugv_msgs:msg/DriverStateNamed.idl
+/home/nfl/husarion_rusak/src/build/husarion_ugv_msgs/rosidl_adapter/husarion_ugv_msgs:msg/FaultFlag.idl
+/home/nfl/husarion_rusak/src/build/husarion_ugv_msgs/rosidl_adapter/husarion_ugv_msgs:msg/IOState.idl
+/home/nfl/husarion_rusak/src/build/husarion_ugv_msgs/rosidl_adapter/husarion_ugv_msgs:msg/LEDAnimation.idl
+/home/nfl/husarion_rusak/src/build/husarion_ugv_msgs/rosidl_adapter/husarion_ugv_msgs:msg/LEDAnimationQueue.idl
+/home/nfl/husarion_rusak/src/build/husarion_ugv_msgs/rosidl_adapter/husarion_ugv_msgs:msg/LEDImageAnimation.idl
+/home/nfl/husarion_rusak/src/build/husarion_ugv_msgs/rosidl_adapter/husarion_ugv_msgs:msg/RobotDriverState.idl
+/home/nfl/husarion_rusak/src/build/husarion_ugv_msgs/rosidl_adapter/husarion_ugv_msgs:msg/RuntimeError.idl
+/home/nfl/husarion_rusak/src/build/husarion_ugv_msgs/rosidl_adapter/husarion_ugv_msgs:msg/ScriptFlag.idl
+/home/nfl/husarion_rusak/src/build/husarion_ugv_msgs/rosidl_adapter/husarion_ugv_msgs:msg/SystemStatus.idl
+/home/nfl/husarion_rusak/src/build/husarion_ugv_msgs/rosidl_adapter/husarion_ugv_msgs:srv/SetLEDAnimation.idl
+/home/nfl/husarion_rusak/src/build/husarion_ugv_msgs/rosidl_adapter/husarion_ugv_msgs:srv/SetLEDBrightness.idl
+/home/nfl/husarion_rusak/src/build/husarion_ugv_msgs/rosidl_adapter/husarion_ugv_msgs:srv/SetLEDImageAnimation.idl
+/home/nfl/husarion_rusak/src/build/husarion_ugv_msgs/rosidl_adapter/husarion_ugv_msgs:srv/AddZone.idl

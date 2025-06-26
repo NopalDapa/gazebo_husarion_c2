@@ -1,0 +1,1 @@
+/home/nfl/husarion_rusak/src/build/husarion_ugv_manager/ament_cmake_core/husarion_ugv_managerConfig.cmake

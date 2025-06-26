@@ -1,0 +1,1 @@
+/home/nfl/husarion_rusak/src/build/husarion_ugv_manager/include/husarion_ugv_manager/lights_manager_parameters.hpp

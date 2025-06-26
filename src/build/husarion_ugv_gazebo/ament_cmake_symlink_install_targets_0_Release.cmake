@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/nfl/husarion_rusak/src/build/husarion_ugv_gazebo/libLEDStrip.so" "/home/nfl/husarion_rusak/src/build/husarion_ugv_gazebo/zone_marker_node" "TARGETS" "LEDStrip" "zone_marker_node" "DESTINATION" "lib/husarion_ugv_gazebo")

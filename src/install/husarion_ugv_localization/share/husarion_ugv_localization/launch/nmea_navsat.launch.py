@@ -1,0 +1,1 @@
+/home/nfl/husarion_rusak/src/husarion_ugv_ros/husarion_ugv_localization/launch/nmea_navsat.launch.py

@@ -1,0 +1,641 @@
+[0.014s] Invoking command in '/home/nfl/husarion_rusak/src/build/husarion_ugv_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nfl/husarion_rusak/src/husarion_ugv_ros/husarion_ugv_msgs -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nfl/husarion_rusak/src/install/husarion_ugv_msgs
+[0.101s] -- The C compiler identification is GNU 13.3.0
+[0.179s] -- The CXX compiler identification is GNU 13.3.0
+[0.198s] -- Detecting C compiler ABI info
+[0.272s] -- Detecting C compiler ABI info - done
+[0.279s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.279s] -- Detecting C compile features
+[0.280s] -- Detecting C compile features - done
+[0.288s] -- Detecting CXX compiler ABI info
+[0.363s] -- Detecting CXX compiler ABI info - done
+[0.373s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.373s] -- Detecting CXX compile features
+[0.374s] -- Detecting CXX compile features - done
+[0.382s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.510s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.583s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.620s] -- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[0.669s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.684s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.701s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.720s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.738s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.754s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.758s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.776s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.401s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.145s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.443s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.447s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.568s] -- Found PythonExtra: /usr/bin/python3  
+[3.088s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.142s] -- Configuring done (3.1s)
+[3.203s] -- Generating done (0.0s)
+[3.212s] -- Build files have been written to: /home/nfl/husarion_rusak/src/build/husarion_ugv_msgs
+[3.221s] Invoked command in '/home/nfl/husarion_rusak/src/build/husarion_ugv_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nfl/husarion_rusak/src/husarion_ugv_ros/husarion_ugv_msgs -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nfl/husarion_rusak/src/install/husarion_ugv_msgs
+[3.222s] Invoking command in '/home/nfl/husarion_rusak/src/build/husarion_ugv_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nfl/husarion_rusak/src/build/husarion_ugv_msgs -- -j16 -l16
+[3.269s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.277s] [  1%] Built target ament_cmake_python_symlink_husarion_ugv_msgs
+[3.443s] running egg_info
+[3.444s] creating husarion_ugv_msgs.egg-info
+[3.471s] writing husarion_ugv_msgs.egg-info/PKG-INFO
+[3.472s] writing dependency_links to husarion_ugv_msgs.egg-info/dependency_links.txt
+[3.472s] writing top-level names to husarion_ugv_msgs.egg-info/top_level.txt
+[3.472s] writing manifest file 'husarion_ugv_msgs.egg-info/SOURCES.txt'
+[3.553s] reading manifest file 'husarion_ugv_msgs.egg-info/SOURCES.txt'
+[3.553s] writing manifest file 'husarion_ugv_msgs.egg-info/SOURCES.txt'
+[3.583s] [  1%] Built target ament_cmake_python_build_husarion_ugv_msgs_egg
+[3.629s] [  1%] Built target husarion_ugv_msgs__rosidl_generator_type_description
+[3.638s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.646s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.547s] [  1%] Built target husarion_ugv_msgs__cpp
+[4.693s] [  2%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/msg/detail/charging_status__description.c.o[0m
+[4.693s] [  2%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/msg/detail/charging_status__functions.c.o[0m
+[4.693s] [  2%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/msg/detail/driver_state__type_support.c.o[0m
+[4.693s] [  2%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/msg/detail/driver_state__description.c.o[0m
+[4.693s] [  3%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/msg/detail/driver_state__functions.c.o[0m
+[4.694s] [  4%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/msg/detail/charging_status__type_support.c.o[0m
+[4.696s] [  3%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/msg/detail/driver_state_named__functions.c.o[0m
+[4.696s] [  5%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/msg/detail/driver_state_named__description.c.o[0m
+[4.698s] [  6%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/msg/detail/driver_state_named__type_support.c.o[0m
+[4.703s] [  7%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/msg/detail/fault_flag__description.c.o[0m
+[4.705s] [  7%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/msg/detail/fault_flag__functions.c.o[0m
+[4.734s] [  8%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/msg/detail/fault_flag__type_support.c.o[0m
+[4.735s] [  8%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/msg/detail/io_state__type_support.c.o[0m
+[4.736s] [  8%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/msg/detail/io_state__description.c.o[0m
+[4.738s] [  9%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/msg/detail/io_state__functions.c.o[0m
+[4.749s] [ 10%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/msg/detail/led_animation__description.c.o[0m
+[4.749s] [ 10%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/msg/detail/led_animation__functions.c.o[0m
+[4.759s] [ 11%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/msg/detail/led_animation_queue__functions.c.o[0m
+[4.762s] [ 11%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/msg/detail/led_animation_queue__description.c.o[0m
+[4.765s] [ 12%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/msg/detail/led_animation__type_support.c.o[0m
+[4.770s] [ 12%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/msg/detail/led_image_animation__description.c.o[0m
+[4.782s] [ 13%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/msg/detail/led_image_animation__functions.c.o[0m
+[4.791s] [ 13%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/msg/detail/led_image_animation__type_support.c.o[0m
+[4.792s] [ 14%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/msg/detail/led_animation_queue__type_support.c.o[0m
+[4.804s] [ 15%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/msg/detail/robot_driver_state__description.c.o[0m
+[4.838s] [ 16%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/msg/detail/robot_driver_state__type_support.c.o[0m
+[4.839s] [ 17%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/msg/detail/runtime_error__functions.c.o[0m
+[4.841s] [ 17%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/msg/detail/runtime_error__description.c.o[0m
+[4.846s] [ 17%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/msg/detail/robot_driver_state__functions.c.o[0m
+[4.852s] [ 17%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/msg/detail/runtime_error__type_support.c.o[0m
+[4.852s] [ 18%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/msg/detail/script_flag__functions.c.o[0m
+[4.853s] [ 19%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/msg/detail/script_flag__description.c.o[0m
+[4.856s] [ 19%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/msg/detail/script_flag__type_support.c.o[0m
+[4.884s] [ 20%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/msg/detail/system_status__description.c.o[0m
+[4.894s] [ 20%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/msg/detail/system_status__functions.c.o[0m
+[4.895s] [ 21%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/msg/detail/system_status__type_support.c.o[0m
+[4.905s] [ 22%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/srv/detail/set_led_animation__functions.c.o[0m
+[4.905s] [ 22%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/srv/detail/set_led_animation__description.c.o[0m
+[4.917s] [ 23%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/srv/detail/set_led_brightness__description.c.o[0m
+[4.921s] [ 23%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/srv/detail/set_led_animation__type_support.c.o[0m
+[4.922s] [ 23%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/srv/detail/set_led_brightness__functions.c.o[0m
+[4.927s] [ 24%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/srv/detail/set_led_brightness__type_support.c.o[0m
+[4.934s] [ 25%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/srv/detail/set_led_image_animation__description.c.o[0m
+[4.949s] [ 25%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/srv/detail/set_led_image_animation__functions.c.o[0m
+[4.949s] [ 26%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/srv/detail/set_led_image_animation__type_support.c.o[0m
+[4.955s] [ 26%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/srv/detail/add_zone__description.c.o[0m
+[4.982s] [ 27%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/srv/detail/add_zone__functions.c.o[0m
+[4.989s] [ 27%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_c.dir/rosidl_generator_c/husarion_ugv_msgs/srv/detail/add_zone__type_support.c.o[0m
+[5.246s] [ 28%] [32m[1mLinking C shared library libhusarion_ugv_msgs__rosidl_generator_c.so[0m
+[5.306s] [ 28%] Built target husarion_ugv_msgs__rosidl_generator_c
+[5.319s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.319s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.319s] [ 30%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.321s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.321s] [ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.323s] [ 31%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.230s] [ 31%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/husarion_ugv_msgs/msg/driver_state__type_support.cpp.o[0m
+[6.231s] [ 31%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/husarion_ugv_msgs/msg/led_animation__type_support.cpp.o[0m
+[6.233s] [ 32%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/husarion_ugv_msgs/msg/driver_state_named__type_support.cpp.o[0m
+[6.235s] [ 33%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/husarion_ugv_msgs/msg/io_state__type_support.cpp.o[0m
+[6.237s] [ 34%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/husarion_ugv_msgs/msg/charging_status__type_support.cpp.o[0m
+[6.237s] [ 34%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/husarion_ugv_msgs/msg/fault_flag__type_support.cpp.o[0m
+[6.238s] [ 35%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/husarion_ugv_msgs/msg/led_animation_queue__type_support.cpp.o[0m
+[6.240s] [ 36%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/husarion_ugv_msgs/msg/runtime_error__type_support.cpp.o[0m
+[6.246s] [ 36%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/husarion_ugv_msgs/msg/led_image_animation__type_support.cpp.o[0m
+[6.246s] [ 37%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/husarion_ugv_msgs/msg/robot_driver_state__type_support.cpp.o[0m
+[6.276s] [ 37%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/husarion_ugv_msgs/msg/script_flag__type_support.cpp.o[0m
+[6.305s] [ 38%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/husarion_ugv_msgs/msg/system_status__type_support.cpp.o[0m
+[6.321s] [ 38%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/husarion_ugv_msgs/srv/set_led_animation__type_support.cpp.o[0m
+[6.338s] [ 38%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/husarion_ugv_msgs/srv/set_led_image_animation__type_support.cpp.o[0m
+[6.338s] [ 39%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/husarion_ugv_msgs/srv/add_zone__type_support.cpp.o[0m
+[6.339s] [ 40%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/husarion_ugv_msgs/srv/set_led_brightness__type_support.cpp.o[0m
+[6.374s] [ 40%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/husarion_ugv_msgs/msg/charging_status__type_support.cpp.o[0m
+[6.387s] [ 41%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/husarion_ugv_msgs/msg/driver_state__type_support.cpp.o[0m
+[6.388s] [ 42%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/husarion_ugv_msgs/msg/driver_state_named__type_support.cpp.o[0m
+[6.390s] [ 42%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/husarion_ugv_msgs/msg/fault_flag__type_support.cpp.o[0m
+[6.396s] [ 43%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/husarion_ugv_msgs/msg/io_state__type_support.cpp.o[0m
+[6.414s] [ 43%] [32m[1mLinking CXX shared library libhusarion_ugv_msgs__rosidl_typesupport_c.so[0m
+[6.433s] [ 43%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/husarion_ugv_msgs/msg/led_animation__type_support.cpp.o[0m
+[6.446s] [ 44%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/husarion_ugv_msgs/msg/led_animation_queue__type_support.cpp.o[0m
+[6.466s] [ 45%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/husarion_ugv_msgs/msg/robot_driver_state__type_support.cpp.o[0m
+[6.481s] [ 45%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/husarion_ugv_msgs/msg/led_image_animation__type_support.cpp.o[0m
+[6.496s] [ 45%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/husarion_ugv_msgs/msg/runtime_error__type_support.cpp.o[0m
+[6.506s] [ 46%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/husarion_ugv_msgs/msg/script_flag__type_support.cpp.o[0m
+[6.527s] [ 46%] Built target husarion_ugv_msgs__rosidl_typesupport_c
+[6.546s] [ 46%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/husarion_ugv_msgs/msg/system_status__type_support.cpp.o[0m
+[6.613s] [ 47%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/husarion_ugv_msgs/msg/detail/charging_status__type_support.cpp.o[0m
+[6.755s] [ 48%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/husarion_ugv_msgs/msg/detail/charging_status__type_support.c.o[0m
+[6.792s] [ 48%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/husarion_ugv_msgs/msg/detail/driver_state__type_support.c.o[0m
+[6.792s] [ 48%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/husarion_ugv_msgs/msg/detail/driver_state__type_support.cpp.o[0m
+[6.813s] [ 49%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/husarion_ugv_msgs/msg/detail/driver_state_named__type_support.c.o[0m
+[6.845s] [ 49%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/husarion_ugv_msgs/msg/detail/fault_flag__type_support.c.o[0m
+[6.865s] [ 50%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/husarion_ugv_msgs/srv/set_led_animation__type_support.cpp.o[0m
+[6.865s] [ 51%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/husarion_ugv_msgs/msg/detail/driver_state_named__type_support.cpp.o[0m
+[6.876s] [ 51%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/husarion_ugv_msgs/srv/set_led_brightness__type_support.cpp.o[0m
+[6.892s] [ 52%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/husarion_ugv_msgs/msg/detail/io_state__type_support.c.o[0m
+[6.898s] [ 52%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/husarion_ugv_msgs/msg/detail/fault_flag__type_support.cpp.o[0m
+[6.925s] [ 52%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/husarion_ugv_msgs/msg/detail/led_animation__type_support.c.o[0m
+[6.938s] [ 53%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/husarion_ugv_msgs/msg/detail/io_state__type_support.cpp.o[0m
+[6.954s] [ 53%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/husarion_ugv_msgs/msg/detail/led_animation__type_support.cpp.o[0m
+[6.955s] [ 54%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/husarion_ugv_msgs/msg/detail/led_animation_queue__type_support.cpp.o[0m
+[6.982s] [ 55%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/husarion_ugv_msgs/msg/detail/led_animation_queue__type_support.c.o[0m
+[6.988s] [ 55%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/husarion_ugv_msgs/msg/detail/led_image_animation__type_support.cpp.o[0m
+[7.028s] [ 56%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/husarion_ugv_msgs/msg/detail/led_image_animation__type_support.c.o[0m
+[7.058s] [ 57%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/husarion_ugv_msgs/srv/set_led_image_animation__type_support.cpp.o[0m
+[7.063s] [ 57%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/husarion_ugv_msgs/msg/detail/robot_driver_state__type_support.c.o[0m
+[7.078s] [ 57%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/husarion_ugv_msgs/msg/detail/runtime_error__type_support.cpp.o[0m
+[7.080s] [ 58%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/husarion_ugv_msgs/msg/detail/robot_driver_state__type_support.cpp.o[0m
+[7.123s] [ 59%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/husarion_ugv_msgs/msg/detail/script_flag__type_support.cpp.o[0m
+[7.147s] [ 60%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/husarion_ugv_msgs/msg/detail/runtime_error__type_support.c.o[0m
+[7.216s] [ 60%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/husarion_ugv_msgs/msg/detail/script_flag__type_support.c.o[0m
+[7.227s] [ 61%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/husarion_ugv_msgs/srv/add_zone__type_support.cpp.o[0m
+[7.281s] [ 62%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/husarion_ugv_msgs/msg/detail/system_status__type_support.c.o[0m
+[7.307s] [ 63%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/husarion_ugv_msgs/msg/detail/dds_fastrtps/charging_status__type_support.cpp.o[0m
+[7.315s] [ 64%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/husarion_ugv_msgs/msg/detail/dds_fastrtps/driver_state__type_support.cpp.o[0m
+[7.346s] [ 64%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/husarion_ugv_msgs/srv/detail/set_led_animation__type_support.c.o[0m
+[7.367s] [ 65%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/husarion_ugv_msgs/msg/detail/system_status__type_support.cpp.o[0m
+[7.374s] [ 65%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/husarion_ugv_msgs/msg/detail/dds_fastrtps/driver_state_named__type_support.cpp.o[0m
+[7.380s] [ 65%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/husarion_ugv_msgs/srv/detail/set_led_animation__type_support.cpp.o[0m
+[7.409s] [ 66%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/husarion_ugv_msgs/srv/detail/set_led_brightness__type_support.c.o[0m
+[7.438s] [ 67%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/husarion_ugv_msgs/srv/detail/set_led_brightness__type_support.cpp.o[0m
+[7.454s] [ 68%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/husarion_ugv_msgs/msg/detail/dds_fastrtps/fault_flag__type_support.cpp.o[0m
+[7.462s] [ 68%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/husarion_ugv_msgs/srv/detail/set_led_image_animation__type_support.cpp.o[0m
+[7.499s] [ 68%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/husarion_ugv_msgs/srv/detail/set_led_image_animation__type_support.c.o[0m
+[7.509s] [ 68%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/husarion_ugv_msgs/msg/detail/dds_fastrtps/io_state__type_support.cpp.o[0m
+[7.512s] [ 69%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/husarion_ugv_msgs/srv/detail/add_zone__type_support.cpp.o[0m
+[7.566s] [ 70%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/husarion_ugv_msgs/srv/detail/add_zone__type_support.c.o[0m
+[7.617s] [ 71%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/husarion_ugv_msgs/msg/detail/dds_fastrtps/led_animation__type_support.cpp.o[0m
+[7.648s] [ 71%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/husarion_ugv_msgs/msg/detail/dds_fastrtps/led_animation_queue__type_support.cpp.o[0m
+[7.668s] [ 71%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/husarion_ugv_msgs/msg/detail/charging_status__type_support_c.cpp.o[0m
+[7.710s] [ 71%] [32m[1mLinking C shared library libhusarion_ugv_msgs__rosidl_typesupport_introspection_c.so[0m
+[7.728s] [ 72%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/husarion_ugv_msgs/msg/detail/driver_state__type_support_c.cpp.o[0m
+[7.812s] [ 72%] Built target husarion_ugv_msgs__rosidl_typesupport_introspection_c
+[7.840s] [ 73%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/husarion_ugv_msgs/msg/detail/dds_fastrtps/led_image_animation__type_support.cpp.o[0m
+[7.882s] [ 73%] [32m[1mLinking CXX shared library libhusarion_ugv_msgs__rosidl_typesupport_cpp.so[0m
+[7.973s] [ 73%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/husarion_ugv_msgs/msg/detail/driver_state_named__type_support_c.cpp.o[0m
+[8.028s] [ 73%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/husarion_ugv_msgs/msg/detail/dds_fastrtps/robot_driver_state__type_support.cpp.o[0m
+[8.042s] [ 73%] Built target husarion_ugv_msgs__rosidl_typesupport_cpp
+[8.054s] [ 74%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/husarion_ugv_msgs/msg/detail/fault_flag__type_support_c.cpp.o[0m
+[8.057s] [ 74%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/husarion_ugv_msgs/msg/detail/io_state__type_support_c.cpp.o[0m
+[8.066s] [ 75%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/husarion_ugv_msgs/msg/detail/dds_fastrtps/runtime_error__type_support.cpp.o[0m
+[8.133s] [ 76%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/husarion_ugv_msgs/msg/detail/led_animation__type_support_c.cpp.o[0m
+[8.164s] [ 76%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/husarion_ugv_msgs/msg/detail/dds_fastrtps/script_flag__type_support.cpp.o[0m
+[8.179s] [ 77%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/husarion_ugv_msgs/msg/detail/dds_fastrtps/system_status__type_support.cpp.o[0m
+[8.219s] [ 77%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/husarion_ugv_msgs/msg/detail/led_animation_queue__type_support_c.cpp.o[0m
+[8.249s] [ 78%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/husarion_ugv_msgs/srv/detail/dds_fastrtps/set_led_animation__type_support.cpp.o[0m
+[8.250s] [ 79%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/husarion_ugv_msgs/msg/detail/led_image_animation__type_support_c.cpp.o[0m
+[8.332s] [ 79%] [32m[1mLinking CXX shared library libhusarion_ugv_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[8.375s] [ 79%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/husarion_ugv_msgs/srv/detail/dds_fastrtps/set_led_brightness__type_support.cpp.o[0m
+[8.402s] [ 80%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/husarion_ugv_msgs/srv/detail/dds_fastrtps/set_led_image_animation__type_support.cpp.o[0m
+[8.471s] [ 80%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/husarion_ugv_msgs/srv/detail/dds_fastrtps/add_zone__type_support.cpp.o[0m
+[8.548s] [ 80%] Built target husarion_ugv_msgs__rosidl_typesupport_introspection_cpp
+[8.579s] [ 81%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/husarion_ugv_msgs/msg/detail/robot_driver_state__type_support_c.cpp.o[0m
+[8.645s] [ 81%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/husarion_ugv_msgs/msg/detail/runtime_error__type_support_c.cpp.o[0m
+[8.669s] [ 82%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/husarion_ugv_msgs/msg/detail/script_flag__type_support_c.cpp.o[0m
+[8.736s] [ 82%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/husarion_ugv_msgs/msg/detail/system_status__type_support_c.cpp.o[0m
+[8.747s] [ 83%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/husarion_ugv_msgs/srv/detail/set_led_animation__type_support_c.cpp.o[0m
+[8.771s] [ 83%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/husarion_ugv_msgs/srv/detail/set_led_brightness__type_support_c.cpp.o[0m
+[8.789s] [ 84%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/husarion_ugv_msgs/srv/detail/set_led_image_animation__type_support_c.cpp.o[0m
+[8.855s] [ 84%] [32mBuilding CXX object CMakeFiles/husarion_ugv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/husarion_ugv_msgs/srv/detail/add_zone__type_support_c.cpp.o[0m
+[9.446s] [ 85%] [32m[1mLinking CXX shared library libhusarion_ugv_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.517s] [ 85%] Built target husarion_ugv_msgs__rosidl_typesupport_fastrtps_cpp
+[9.524s] [ 86%] [32m[1mLinking CXX shared library libhusarion_ugv_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[9.589s] [ 86%] Built target husarion_ugv_msgs__rosidl_typesupport_fastrtps_c
+[9.608s] [ 86%] Built target husarion_ugv_msgs
+[9.628s] [ 87%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.873s] [ 87%] Built target husarion_ugv_msgs__py
+[10.897s] [ 89%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_py.dir/rosidl_generator_py/husarion_ugv_msgs/msg/_led_animation_s.c.o[0m
+[10.897s] [ 89%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_py.dir/rosidl_generator_py/husarion_ugv_msgs/msg/_driver_state_s.c.o[0m
+[10.897s] [ 89%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_py.dir/rosidl_generator_py/husarion_ugv_msgs/msg/_driver_state_named_s.c.o[0m
+[10.897s] [ 91%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_py.dir/rosidl_generator_py/husarion_ugv_msgs/msg/_runtime_error_s.c.o[0m
+[10.897s] [ 91%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_py.dir/rosidl_generator_py/husarion_ugv_msgs/msg/_io_state_s.c.o[0m
+[10.897s] [ 93%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_py.dir/rosidl_generator_py/husarion_ugv_msgs/msg/_led_animation_queue_s.c.o[0m
+[10.897s] [ 93%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_py.dir/rosidl_generator_py/husarion_ugv_msgs/msg/_robot_driver_state_s.c.o[0m
+[10.898s] [ 93%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_py.dir/rosidl_generator_py/husarion_ugv_msgs/msg/_charging_status_s.c.o[0m
+[10.898s] [ 91%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_py.dir/rosidl_generator_py/husarion_ugv_msgs/msg/_led_image_animation_s.c.o[0m
+[10.899s] [ 93%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_py.dir/rosidl_generator_py/husarion_ugv_msgs/msg/_script_flag_s.c.o[0m
+[10.899s] [ 93%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_py.dir/rosidl_generator_py/husarion_ugv_msgs/msg/_fault_flag_s.c.o[0m
+[10.900s] [ 94%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_py.dir/rosidl_generator_py/husarion_ugv_msgs/srv/_set_led_animation_s.c.o[0m
+[10.900s] [ 94%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_py.dir/rosidl_generator_py/husarion_ugv_msgs/msg/_system_status_s.c.o[0m
+[10.900s] [ 94%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_py.dir/rosidl_generator_py/husarion_ugv_msgs/srv/_set_led_brightness_s.c.o[0m
+[10.904s] [ 95%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_py.dir/rosidl_generator_py/husarion_ugv_msgs/srv/_set_led_image_animation_s.c.o[0m
+[10.904s] [ 95%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs__rosidl_generator_py.dir/rosidl_generator_py/husarion_ugv_msgs/srv/_add_zone_s.c.o[0m
+[11.168s] [ 96%] [32m[1mLinking C shared library libhusarion_ugv_msgs__rosidl_generator_py.so[0m
+[11.206s] [ 96%] Built target husarion_ugv_msgs__rosidl_generator_py
+[11.222s] [ 97%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/husarion_ugv_msgs/_husarion_ugv_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.225s] [ 98%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/husarion_ugv_msgs/_husarion_ugv_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.227s] [ 99%] [32mBuilding C object CMakeFiles/husarion_ugv_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/husarion_ugv_msgs/_husarion_ugv_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[11.488s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/husarion_ugv_msgs/husarion_ugv_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[11.488s] [100%] [32m[1mLinking C shared module rosidl_generator_py/husarion_ugv_msgs/husarion_ugv_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[11.496s] [100%] [32m[1mLinking C shared module rosidl_generator_py/husarion_ugv_msgs/husarion_ugv_msgs_s__rosidl_typesupport_c.so[0m
+[11.514s] [100%] Built target husarion_ugv_msgs_s__rosidl_typesupport_introspection_c
+[11.520s] [100%] Built target husarion_ugv_msgs_s__rosidl_typesupport_fastrtps_c
+[11.522s] [100%] Built target husarion_ugv_msgs_s__rosidl_typesupport_c
+[11.532s] Invoked command in '/home/nfl/husarion_rusak/src/build/husarion_ugv_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nfl/husarion_rusak/src/build/husarion_ugv_msgs -- -j16 -l16
+[11.533s] Invoking command in '/home/nfl/husarion_rusak/src/build/husarion_ugv_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nfl/husarion_rusak/src/build/husarion_ugv_msgs
+[11.540s] -- Install configuration: "Release"
+[11.540s] -- Execute custom install script
+[11.540s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/ament_index/resource_index/rosidl_interfaces/husarion_ugv_msgs
+[11.547s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/msg/ChargingStatus.json
+[11.557s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/msg/DriverState.json
+[11.564s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/msg/DriverStateNamed.json
+[11.572s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/msg/FaultFlag.json
+[11.580s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/msg/IOState.json
+[11.588s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/msg/LEDAnimation.json
+[11.596s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/msg/LEDAnimationQueue.json
+[11.604s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/msg/LEDImageAnimation.json
+[11.611s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/msg/RobotDriverState.json
+[11.619s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/msg/RuntimeError.json
+[11.626s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/msg/ScriptFlag.json
+[11.634s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/msg/SystemStatus.json
+[11.641s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/srv/SetLEDAnimation.json
+[11.649s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/srv/SetLEDBrightness.json
+[11.655s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/srv/SetLEDImageAnimation.json
+[11.663s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/srv/AddZone.json
+[11.670s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/charging_status.h
+[11.676s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/charging_status__functions.h
+[11.682s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/charging_status__struct.h
+[11.690s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/charging_status__type_support.h
+[11.698s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/driver_state__functions.h
+[11.706s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/driver_state__struct.h
+[11.713s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/driver_state__type_support.h
+[11.720s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/driver_state_named__functions.h
+[11.729s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/driver_state_named__struct.h
+[11.738s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/driver_state_named__type_support.h
+[11.744s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/fault_flag__functions.h
+[11.754s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/fault_flag__struct.h
+[11.760s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/fault_flag__type_support.h
+[11.767s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/io_state__functions.h
+[11.775s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/io_state__struct.h
+[11.782s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/io_state__type_support.h
+[11.791s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/led_animation__functions.h
+[11.800s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/led_animation__struct.h
+[11.808s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/led_animation__type_support.h
+[11.814s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/led_animation_queue__functions.h
+[11.823s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/led_animation_queue__struct.h
+[11.830s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/led_animation_queue__type_support.h
+[11.839s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/led_image_animation__functions.h
+[11.846s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/led_image_animation__struct.h
+[11.855s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/led_image_animation__type_support.h
+[11.861s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/robot_driver_state__functions.h
+[11.870s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/robot_driver_state__struct.h
+[11.877s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/robot_driver_state__type_support.h
+[11.886s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/runtime_error__functions.h
+[11.893s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/runtime_error__struct.h
+[11.902s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/runtime_error__type_support.h
+[11.909s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/script_flag__functions.h
+[11.918s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/script_flag__struct.h
+[11.925s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/script_flag__type_support.h
+[11.934s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/system_status__functions.h
+[11.941s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/system_status__struct.h
+[11.950s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/system_status__type_support.h
+[11.958s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/driver_state.h
+[11.965s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/driver_state_named.h
+[11.973s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/fault_flag.h
+[11.982s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/io_state.h
+[11.990s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/led_animation.h
+[11.999s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/led_animation_queue.h
+[12.006s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/led_image_animation.h
+[12.013s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/robot_driver_state.h
+[12.021s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/rosidl_generator_c__visibility_control.h
+[12.028s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/runtime_error.h
+[12.036s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/script_flag.h
+[12.044s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/system_status.h
+[12.052s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/add_zone.h
+[12.058s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/add_zone__functions.h
+[12.068s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/add_zone__struct.h
+[12.076s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/add_zone__type_support.h
+[12.084s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/set_led_animation__functions.h
+[12.090s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/set_led_animation__struct.h
+[12.099s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/set_led_animation__type_support.h
+[12.106s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/set_led_brightness__functions.h
+[12.112s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/set_led_brightness__struct.h
+[12.120s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/set_led_brightness__type_support.h
+[12.127s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/set_led_image_animation__functions.h
+[12.134s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/set_led_image_animation__struct.h
+[12.143s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/set_led_image_animation__type_support.h
+[12.150s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/set_led_animation.h
+[12.158s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/set_led_brightness.h
+[12.164s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/set_led_image_animation.h
+[12.172s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/environment/library_path.sh
+[12.178s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/environment/library_path.dsv
+[12.187s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/charging_status__rosidl_typesupport_fastrtps_c.h
+[12.194s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/driver_state__rosidl_typesupport_fastrtps_c.h
+[12.202s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/driver_state_named__rosidl_typesupport_fastrtps_c.h
+[12.209s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/fault_flag__rosidl_typesupport_fastrtps_c.h
+[12.217s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/io_state__rosidl_typesupport_fastrtps_c.h
+[12.225s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/led_animation__rosidl_typesupport_fastrtps_c.h
+[12.233s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/led_animation_queue__rosidl_typesupport_fastrtps_c.h
+[12.240s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/led_image_animation__rosidl_typesupport_fastrtps_c.h
+[12.249s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/robot_driver_state__rosidl_typesupport_fastrtps_c.h
+[12.256s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/runtime_error__rosidl_typesupport_fastrtps_c.h
+[12.264s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/script_flag__rosidl_typesupport_fastrtps_c.h
+[12.272s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/system_status__rosidl_typesupport_fastrtps_c.h
+[12.279s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.287s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/add_zone__rosidl_typesupport_fastrtps_c.h
+[12.296s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/set_led_animation__rosidl_typesupport_fastrtps_c.h
+[12.304s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/set_led_brightness__rosidl_typesupport_fastrtps_c.h
+[12.311s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/set_led_image_animation__rosidl_typesupport_fastrtps_c.h
+[12.320s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/charging_status.hpp
+[12.329s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/charging_status__builder.hpp
+[12.337s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/charging_status__struct.hpp
+[12.345s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/charging_status__traits.hpp
+[12.353s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/charging_status__type_support.hpp
+[12.361s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/driver_state__builder.hpp
+[12.370s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/driver_state__struct.hpp
+[12.376s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/driver_state__traits.hpp
+[12.385s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/driver_state__type_support.hpp
+[12.394s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/driver_state_named__builder.hpp
+[12.401s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/driver_state_named__struct.hpp
+[12.409s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/driver_state_named__traits.hpp
+[12.417s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/driver_state_named__type_support.hpp
+[12.425s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/fault_flag__builder.hpp
+[12.433s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/fault_flag__struct.hpp
+[12.440s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/fault_flag__traits.hpp
+[12.448s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/fault_flag__type_support.hpp
+[12.457s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/io_state__builder.hpp
+[12.464s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/io_state__struct.hpp
+[12.473s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/io_state__traits.hpp
+[12.481s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/io_state__type_support.hpp
+[12.490s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/led_animation__builder.hpp
+[12.499s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/led_animation__struct.hpp
+[12.507s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/led_animation__traits.hpp
+[12.514s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/led_animation__type_support.hpp
+[12.523s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/led_animation_queue__builder.hpp
+[12.530s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/led_animation_queue__struct.hpp
+[12.538s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/led_animation_queue__traits.hpp
+[12.545s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/led_animation_queue__type_support.hpp
+[12.553s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/led_image_animation__builder.hpp
+[12.561s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/led_image_animation__struct.hpp
+[12.569s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/led_image_animation__traits.hpp
+[12.575s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/led_image_animation__type_support.hpp
+[12.585s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/robot_driver_state__builder.hpp
+[12.591s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/robot_driver_state__struct.hpp
+[12.597s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/robot_driver_state__traits.hpp
+[12.604s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/robot_driver_state__type_support.hpp
+[12.611s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/runtime_error__builder.hpp
+[12.620s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/runtime_error__struct.hpp
+[12.627s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/runtime_error__traits.hpp
+[12.634s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/runtime_error__type_support.hpp
+[12.641s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/script_flag__builder.hpp
+[12.648s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/script_flag__struct.hpp
+[12.656s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/script_flag__traits.hpp
+[12.666s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/script_flag__type_support.hpp
+[12.674s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/system_status__builder.hpp
+[12.680s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/system_status__struct.hpp
+[12.690s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/system_status__traits.hpp
+[12.699s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/system_status__type_support.hpp
+[12.707s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/driver_state.hpp
+[12.716s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/driver_state_named.hpp
+[12.726s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/fault_flag.hpp
+[12.734s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/io_state.hpp
+[12.741s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/led_animation.hpp
+[12.752s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/led_animation_queue.hpp
+[12.761s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/led_image_animation.hpp
+[12.768s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/robot_driver_state.hpp
+[12.775s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[12.784s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/runtime_error.hpp
+[12.791s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/script_flag.hpp
+[12.801s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/system_status.hpp
+[12.808s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/add_zone.hpp
+[12.817s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/add_zone__builder.hpp
+[12.826s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/add_zone__struct.hpp
+[12.835s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/add_zone__traits.hpp
+[12.845s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/add_zone__type_support.hpp
+[12.852s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/set_led_animation__builder.hpp
+[12.862s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/set_led_animation__struct.hpp
+[12.871s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/set_led_animation__traits.hpp
+[12.879s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/set_led_animation__type_support.hpp
+[12.887s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/set_led_brightness__builder.hpp
+[12.896s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/set_led_brightness__struct.hpp
+[12.904s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/set_led_brightness__traits.hpp
+[12.912s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/set_led_brightness__type_support.hpp
+[12.919s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/set_led_image_animation__builder.hpp
+[12.927s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/set_led_image_animation__struct.hpp
+[12.935s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/set_led_image_animation__traits.hpp
+[12.944s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/set_led_image_animation__type_support.hpp
+[12.951s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/set_led_animation.hpp
+[12.959s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/set_led_brightness.hpp
+[12.968s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/set_led_image_animation.hpp
+[12.977s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/charging_status__rosidl_typesupport_fastrtps_cpp.hpp
+[12.985s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/driver_state__rosidl_typesupport_fastrtps_cpp.hpp
+[12.996s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/driver_state_named__rosidl_typesupport_fastrtps_cpp.hpp
+[13.003s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/fault_flag__rosidl_typesupport_fastrtps_cpp.hpp
+[13.011s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/io_state__rosidl_typesupport_fastrtps_cpp.hpp
+[13.019s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/led_animation__rosidl_typesupport_fastrtps_cpp.hpp
+[13.027s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/led_animation_queue__rosidl_typesupport_fastrtps_cpp.hpp
+[13.035s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/led_image_animation__rosidl_typesupport_fastrtps_cpp.hpp
+[13.042s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/robot_driver_state__rosidl_typesupport_fastrtps_cpp.hpp
+[13.050s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/runtime_error__rosidl_typesupport_fastrtps_cpp.hpp
+[13.057s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/script_flag__rosidl_typesupport_fastrtps_cpp.hpp
+[13.066s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp
+[13.073s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[13.082s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/add_zone__rosidl_typesupport_fastrtps_cpp.hpp
+[13.089s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/set_led_animation__rosidl_typesupport_fastrtps_cpp.hpp
+[13.096s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/set_led_brightness__rosidl_typesupport_fastrtps_cpp.hpp
+[13.104s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/set_led_image_animation__rosidl_typesupport_fastrtps_cpp.hpp
+[13.115s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/charging_status__rosidl_typesupport_introspection_c.h
+[13.124s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/driver_state__rosidl_typesupport_introspection_c.h
+[13.133s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/driver_state_named__rosidl_typesupport_introspection_c.h
+[13.141s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/fault_flag__rosidl_typesupport_introspection_c.h
+[13.150s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/io_state__rosidl_typesupport_introspection_c.h
+[13.160s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/led_animation__rosidl_typesupport_introspection_c.h
+[13.167s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/led_animation_queue__rosidl_typesupport_introspection_c.h
+[13.175s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/led_image_animation__rosidl_typesupport_introspection_c.h
+[13.184s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/robot_driver_state__rosidl_typesupport_introspection_c.h
+[13.194s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/runtime_error__rosidl_typesupport_introspection_c.h
+[13.202s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/script_flag__rosidl_typesupport_introspection_c.h
+[13.212s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/system_status__rosidl_typesupport_introspection_c.h
+[13.219s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[13.226s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/add_zone__rosidl_typesupport_introspection_c.h
+[13.233s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/set_led_animation__rosidl_typesupport_introspection_c.h
+[13.243s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/set_led_brightness__rosidl_typesupport_introspection_c.h
+[13.253s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/set_led_image_animation__rosidl_typesupport_introspection_c.h
+[13.262s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/charging_status__rosidl_typesupport_introspection_cpp.hpp
+[13.272s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/driver_state__rosidl_typesupport_introspection_cpp.hpp
+[13.280s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/driver_state_named__rosidl_typesupport_introspection_cpp.hpp
+[13.290s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/fault_flag__rosidl_typesupport_introspection_cpp.hpp
+[13.298s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/io_state__rosidl_typesupport_introspection_cpp.hpp
+[13.308s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/led_animation__rosidl_typesupport_introspection_cpp.hpp
+[13.316s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/led_animation_queue__rosidl_typesupport_introspection_cpp.hpp
+[13.325s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/led_image_animation__rosidl_typesupport_introspection_cpp.hpp
+[13.335s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/robot_driver_state__rosidl_typesupport_introspection_cpp.hpp
+[13.343s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/runtime_error__rosidl_typesupport_introspection_cpp.hpp
+[13.353s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/script_flag__rosidl_typesupport_introspection_cpp.hpp
+[13.361s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/msg/detail/system_status__rosidl_typesupport_introspection_cpp.hpp
+[13.371s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/add_zone__rosidl_typesupport_introspection_cpp.hpp
+[13.378s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/set_led_animation__rosidl_typesupport_introspection_cpp.hpp
+[13.388s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/set_led_brightness__rosidl_typesupport_introspection_cpp.hpp
+[13.398s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/include/husarion_ugv_msgs/husarion_ugv_msgs/srv/detail/set_led_image_animation__rosidl_typesupport_introspection_cpp.hpp
+[13.405s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/environment/pythonpath.sh
+[13.415s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/environment/pythonpath.dsv
+[13.425s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs-2.3.0-py3.12.egg-info/PKG-INFO
+[13.434s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs-2.3.0-py3.12.egg-info/SOURCES.txt
+[13.444s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs-2.3.0-py3.12.egg-info/dependency_links.txt
+[13.453s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs-2.3.0-py3.12.egg-info/top_level.txt
+[13.464s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/__init__.py
+[13.472s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/_husarion_ugv_msgs_s.ep.rosidl_typesupport_c.c
+[13.481s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/_husarion_ugv_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[13.489s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/_husarion_ugv_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[13.498s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/husarion_ugv_msgs_s__rosidl_typesupport_c.so
+[13.506s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/husarion_ugv_msgs_s__rosidl_typesupport_fastrtps_c.so
+[13.515s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/husarion_ugv_msgs_s__rosidl_typesupport_introspection_c.so
+[13.525s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/__init__.py
+[13.533s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/_charging_status.py
+[13.541s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/_charging_status_s.c
+[13.551s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/_driver_state.py
+[13.559s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/_driver_state_named.py
+[13.568s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/_driver_state_named_s.c
+[13.576s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/_driver_state_s.c
+[13.584s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/_fault_flag.py
+[13.592s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/_fault_flag_s.c
+[13.600s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/_io_state.py
+[13.608s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/_io_state_s.c
+[13.616s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/_led_animation.py
+[13.624s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/_led_animation_queue.py
+[13.632s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/_led_animation_queue_s.c
+[13.640s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/_led_animation_s.c
+[13.648s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/_led_image_animation.py
+[13.658s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/_led_image_animation_s.c
+[13.667s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/_robot_driver_state.py
+[13.675s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/_robot_driver_state_s.c
+[13.682s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/_runtime_error.py
+[13.691s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/_runtime_error_s.c
+[13.698s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/_script_flag.py
+[13.708s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/_script_flag_s.c
+[13.718s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/_system_status.py
+[13.727s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/_system_status_s.c
+[13.737s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/srv/__init__.py
+[13.745s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/srv/_add_zone.py
+[13.755s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/srv/_add_zone_s.c
+[13.763s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/srv/_set_led_animation.py
+[13.771s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/srv/_set_led_animation_s.c
+[13.778s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/srv/_set_led_brightness.py
+[13.787s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/srv/_set_led_brightness_s.c
+[13.795s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/srv/_set_led_image_animation.py
+[13.804s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/srv/_set_led_image_animation_s.c
+[13.815s] -- Up-to-date symlink: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/husarion_ugv_msgs_s__rosidl_typesupport_fastrtps_c.so
+[13.815s] -- Up-to-date symlink: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/husarion_ugv_msgs_s__rosidl_typesupport_introspection_c.so
+[13.815s] -- Up-to-date symlink: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/husarion_ugv_msgs_s__rosidl_typesupport_c.so
+[13.815s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/msg/ChargingStatus.idl
+[13.825s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/msg/DriverState.idl
+[13.835s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/msg/DriverStateNamed.idl
+[13.843s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/msg/FaultFlag.idl
+[13.852s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/msg/IOState.idl
+[13.859s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/msg/LEDAnimation.idl
+[13.868s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/msg/LEDAnimationQueue.idl
+[13.878s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/msg/LEDImageAnimation.idl
+[13.888s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/msg/RobotDriverState.idl
+[13.898s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/msg/RuntimeError.idl
+[13.906s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/msg/ScriptFlag.idl
+[13.915s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/msg/SystemStatus.idl
+[13.924s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/srv/SetLEDAnimation.idl
+[13.934s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/srv/SetLEDBrightness.idl
+[13.945s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/srv/SetLEDImageAnimation.idl
+[13.953s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/srv/AddZone.idl
+[13.962s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/msg/ChargingStatus.msg
+[13.970s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/msg/DriverState.msg
+[13.978s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/msg/DriverStateNamed.msg
+[13.986s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/msg/FaultFlag.msg
+[13.994s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/msg/IOState.msg
+[14.002s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/msg/LEDAnimation.msg
+[14.010s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/msg/LEDAnimationQueue.msg
+[14.019s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/msg/LEDImageAnimation.msg
+[14.027s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/msg/RobotDriverState.msg
+[14.035s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/msg/RuntimeError.msg
+[14.046s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/msg/ScriptFlag.msg
+[14.056s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/msg/SystemStatus.msg
+[14.064s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/srv/SetLEDAnimation.srv
+[14.073s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/srv/SetLEDBrightness.srv
+[14.080s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/srv/SetLEDImageAnimation.srv
+[14.089s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/srv/AddZone.srv
+[14.099s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/ament_index/resource_index/package_run_dependencies/husarion_ugv_msgs
+[14.109s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/ament_index/resource_index/parent_prefix_path/husarion_ugv_msgs
+[14.119s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/environment/ament_prefix_path.sh
+[14.129s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/environment/ament_prefix_path.dsv
+[14.137s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/environment/path.sh
+[14.147s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/environment/path.dsv
+[14.155s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/local_setup.bash
+[14.164s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/local_setup.sh
+[14.173s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/local_setup.zsh
+[14.181s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/local_setup.dsv
+[14.190s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/package.dsv
+[14.198s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/ament_index/resource_index/packages/husarion_ugv_msgs
+[14.206s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/cmake/rosidl_cmake-extras.cmake
+[14.213s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.222s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.230s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[14.238s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[14.247s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[14.255s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[14.263s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/cmake/husarion_ugv_msgsConfig.cmake
+[14.271s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/cmake/husarion_ugv_msgsConfig-version.cmake
+[14.281s] -- Symlinking: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/package.xml
+[14.290s] -- Installing: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/libhusarion_ugv_msgs__rosidl_generator_c.so
+[14.290s] -- Set non-toolchain portion of runtime path of "/home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/libhusarion_ugv_msgs__rosidl_generator_c.so" to ""
+[14.290s] -- Installing: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/libhusarion_ugv_msgs__rosidl_typesupport_fastrtps_c.so
+[14.291s] -- Set non-toolchain portion of runtime path of "/home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/libhusarion_ugv_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[14.291s] -- Installing: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/libhusarion_ugv_msgs__rosidl_typesupport_fastrtps_cpp.so
+[14.291s] -- Set non-toolchain portion of runtime path of "/home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/libhusarion_ugv_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[14.291s] -- Installing: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/libhusarion_ugv_msgs__rosidl_typesupport_introspection_c.so
+[14.291s] -- Set non-toolchain portion of runtime path of "/home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/libhusarion_ugv_msgs__rosidl_typesupport_introspection_c.so" to ""
+[14.291s] -- Installing: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/libhusarion_ugv_msgs__rosidl_typesupport_c.so
+[14.291s] -- Set non-toolchain portion of runtime path of "/home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/libhusarion_ugv_msgs__rosidl_typesupport_c.so" to ""
+[14.291s] -- Installing: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/libhusarion_ugv_msgs__rosidl_typesupport_introspection_cpp.so
+[14.292s] -- Set non-toolchain portion of runtime path of "/home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/libhusarion_ugv_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[14.292s] -- Installing: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/libhusarion_ugv_msgs__rosidl_typesupport_cpp.so
+[14.292s] -- Set non-toolchain portion of runtime path of "/home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/libhusarion_ugv_msgs__rosidl_typesupport_cpp.so" to ""
+[14.345s] Listing '/home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs'...
+[14.345s] Compiling '/home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/__init__.py'...
+[14.345s] Listing '/home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg'...
+[14.345s] Compiling '/home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/__init__.py'...
+[14.345s] Compiling '/home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/_charging_status.py'...
+[14.345s] Compiling '/home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/_driver_state.py'...
+[14.346s] Compiling '/home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/_driver_state_named.py'...
+[14.346s] Compiling '/home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/_fault_flag.py'...
+[14.346s] Compiling '/home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/_io_state.py'...
+[14.346s] Compiling '/home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/_led_animation.py'...
+[14.346s] Compiling '/home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/_led_animation_queue.py'...
+[14.346s] Compiling '/home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/_led_image_animation.py'...
+[14.346s] Compiling '/home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/_robot_driver_state.py'...
+[14.346s] Compiling '/home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/_runtime_error.py'...
+[14.346s] Compiling '/home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/_script_flag.py'...
+[14.346s] Compiling '/home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/msg/_system_status.py'...
+[14.346s] Listing '/home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/srv'...
+[14.346s] Compiling '/home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/srv/__init__.py'...
+[14.346s] Compiling '/home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/srv/_add_zone.py'...
+[14.347s] Compiling '/home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/srv/_set_led_animation.py'...
+[14.347s] Compiling '/home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/srv/_set_led_brightness.py'...
+[14.347s] Compiling '/home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/python3.12/site-packages/husarion_ugv_msgs/srv/_set_led_image_animation.py'...
+[14.350s] -- Installing: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/libhusarion_ugv_msgs__rosidl_generator_py.so
+[14.351s] -- Set non-toolchain portion of runtime path of "/home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/lib/libhusarion_ugv_msgs__rosidl_generator_py.so" to ""
+[14.351s] -- Installing: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/cmake/export_husarion_ugv_msgs__rosidl_generator_cExport.cmake
+[14.351s] -- Installing: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/cmake/export_husarion_ugv_msgs__rosidl_generator_cExport-release.cmake
+[14.351s] -- Installing: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/cmake/export_husarion_ugv_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[14.351s] -- Installing: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/cmake/export_husarion_ugv_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[14.351s] -- Installing: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/cmake/export_husarion_ugv_msgs__rosidl_generator_cppExport.cmake
+[14.351s] -- Installing: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/cmake/export_husarion_ugv_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[14.351s] -- Installing: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/cmake/export_husarion_ugv_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[14.351s] -- Installing: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/cmake/husarion_ugv_msgs__rosidl_typesupport_introspection_cExport.cmake
+[14.351s] -- Installing: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/cmake/husarion_ugv_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[14.352s] -- Installing: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/cmake/husarion_ugv_msgs__rosidl_typesupport_cExport.cmake
+[14.352s] -- Installing: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/cmake/husarion_ugv_msgs__rosidl_typesupport_cExport-release.cmake
+[14.352s] -- Installing: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/cmake/husarion_ugv_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[14.352s] -- Installing: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/cmake/husarion_ugv_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[14.352s] -- Installing: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/cmake/husarion_ugv_msgs__rosidl_typesupport_cppExport.cmake
+[14.352s] -- Installing: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/cmake/husarion_ugv_msgs__rosidl_typesupport_cppExport-release.cmake
+[14.352s] -- Installing: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/cmake/export_husarion_ugv_msgs__rosidl_generator_pyExport.cmake
+[14.352s] -- Installing: /home/nfl/husarion_rusak/src/install/husarion_ugv_msgs/share/husarion_ugv_msgs/cmake/export_husarion_ugv_msgs__rosidl_generator_pyExport-release.cmake
+[14.353s] Invoked command in '/home/nfl/husarion_rusak/src/build/husarion_ugv_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nfl/husarion_rusak/src/build/husarion_ugv_msgs

@@ -1,0 +1,1 @@
+/home/nfl/husarion_rusak/src/husarion_gz_worlds/models/aruco_pole_textures/materials/textures/generate_textures.py

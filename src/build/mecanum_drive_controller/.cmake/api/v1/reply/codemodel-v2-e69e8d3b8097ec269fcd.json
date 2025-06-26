@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-12f2cbba593a78d5758c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mecanum_drive_controller",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "mecanum_drive_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mecanum_drive_controller-Release-45ce65719e624d4e09ab.json",
+					"name" : "mecanum_drive_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mecanum_drive_controller_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mecanum_drive_controller_parameters-Release-e06bf93d1aa780c5587f.json",
+					"name" : "mecanum_drive_controller_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mecanum_drive_controller_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mecanum_drive_controller_uninstall-Release-72ad8f21c7da6b82466d.json",
+					"name" : "mecanum_drive_controller_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-c424c75a1f740dd67f5f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nfl/husarion_rusak/src/build/mecanum_drive_controller",
+		"source" : "/home/nfl/husarion_rusak/src/husarion_controllers/mecanum_drive_controller"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

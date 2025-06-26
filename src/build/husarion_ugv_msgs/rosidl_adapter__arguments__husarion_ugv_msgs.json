@@ -1,0 +1,21 @@
+{
+  "package_name": "husarion_ugv_msgs",
+  "non_idl_tuples": [
+    "/home/nfl/husarion_rusak/src/husarion_ugv_ros/husarion_ugv_msgs:msg/ChargingStatus.msg",
+    "/home/nfl/husarion_rusak/src/husarion_ugv_ros/husarion_ugv_msgs:msg/DriverState.msg",
+    "/home/nfl/husarion_rusak/src/husarion_ugv_ros/husarion_ugv_msgs:msg/DriverStateNamed.msg",
+    "/home/nfl/husarion_rusak/src/husarion_ugv_ros/husarion_ugv_msgs:msg/FaultFlag.msg",
+    "/home/nfl/husarion_rusak/src/husarion_ugv_ros/husarion_ugv_msgs:msg/IOState.msg",
+    "/home/nfl/husarion_rusak/src/husarion_ugv_ros/husarion_ugv_msgs:msg/LEDAnimation.msg",
+    "/home/nfl/husarion_rusak/src/husarion_ugv_ros/husarion_ugv_msgs:msg/LEDAnimationQueue.msg",
+    "/home/nfl/husarion_rusak/src/husarion_ugv_ros/husarion_ugv_msgs:msg/LEDImageAnimation.msg",
+    "/home/nfl/husarion_rusak/src/husarion_ugv_ros/husarion_ugv_msgs:msg/RobotDriverState.msg",
+    "/home/nfl/husarion_rusak/src/husarion_ugv_ros/husarion_ugv_msgs:msg/RuntimeError.msg",
+    "/home/nfl/husarion_rusak/src/husarion_ugv_ros/husarion_ugv_msgs:msg/ScriptFlag.msg",
+    "/home/nfl/husarion_rusak/src/husarion_ugv_ros/husarion_ugv_msgs:msg/SystemStatus.msg",
+    "/home/nfl/husarion_rusak/src/husarion_ugv_ros/husarion_ugv_msgs:srv/SetLEDAnimation.srv",
+    "/home/nfl/husarion_rusak/src/husarion_ugv_ros/husarion_ugv_msgs:srv/SetLEDBrightness.srv",
+    "/home/nfl/husarion_rusak/src/husarion_ugv_ros/husarion_ugv_msgs:srv/SetLEDImageAnimation.srv",
+    "/home/nfl/husarion_rusak/src/husarion_ugv_ros/husarion_ugv_msgs:srv/AddZone.srv"
+  ]
+}

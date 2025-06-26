@@ -1,0 +1,1 @@
+/home/nfl/husarion_rusak/src/build/husarion_ugv_gazebo/ament_cmake_core/husarion_ugv_gazeboConfig-version.cmake

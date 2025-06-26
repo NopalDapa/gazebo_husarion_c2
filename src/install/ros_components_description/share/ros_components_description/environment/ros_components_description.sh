@@ -1,0 +1,1 @@
+/home/nfl/husarion_rusak/src/build/ros_components_description/ament_cmake_environment_hooks/ros_components_description.sh

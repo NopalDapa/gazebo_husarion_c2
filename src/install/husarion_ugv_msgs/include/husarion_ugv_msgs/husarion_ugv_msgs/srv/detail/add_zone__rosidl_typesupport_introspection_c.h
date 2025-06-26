@@ -1,0 +1,1 @@
+/home/nfl/husarion_rusak/src/build/husarion_ugv_msgs/rosidl_typesupport_introspection_c/husarion_ugv_msgs/srv/detail/add_zone__rosidl_typesupport_introspection_c.h

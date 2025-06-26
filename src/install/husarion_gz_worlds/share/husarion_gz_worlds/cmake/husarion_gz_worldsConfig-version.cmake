@@ -1,0 +1,1 @@
+/home/nfl/husarion_rusak/src/build/husarion_gz_worlds/ament_cmake_core/husarion_gz_worldsConfig-version.cmake

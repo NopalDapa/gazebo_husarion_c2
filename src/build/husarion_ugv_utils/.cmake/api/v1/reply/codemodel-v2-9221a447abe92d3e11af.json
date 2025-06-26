@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-fd30095b03f854f76ae9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "husarion_ugv_utils",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_husarion_ugv_utils_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_husarion_ugv_utils_egg-Release-d5a5e5922d25c2a66e58.json",
+					"name" : "ament_cmake_python_build_husarion_ugv_utils_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_husarion_ugv_utils::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_husarion_ugv_utils-Release-ab481f71f9e65160cfd9.json",
+					"name" : "ament_cmake_python_symlink_husarion_ugv_utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "husarion_ugv_utils_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-husarion_ugv_utils_uninstall-Release-1d54d8b7b1a036f0f6e6.json",
+					"name" : "husarion_ugv_utils_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-fd00949f7844a43b7070.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nfl/husarion_rusak/src/build/husarion_ugv_utils",
+		"source" : "/home/nfl/husarion_rusak/src/husarion_ugv_ros/husarion_ugv_utils"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

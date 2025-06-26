@@ -1,0 +1,1 @@
+/home/nfl/husarion_rusak/src/ros_components_description/launch/gz_kinova_6dof.launch.py

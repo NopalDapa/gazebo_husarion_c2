@@ -1,0 +1,1 @@
+/home/nfl/husarion_rusak/src/husarion_ugv_ros/husarion_ugv_lights/test/unit/animation/test_moving_image_animation.cpp

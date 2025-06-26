@@ -1,0 +1,1 @@
+/home/nfl/husarion_rusak/src/build/husarion_ugv_msgs/rosidl_generator_c/husarion_ugv_msgs/msg/detail/script_flag__type_support.h

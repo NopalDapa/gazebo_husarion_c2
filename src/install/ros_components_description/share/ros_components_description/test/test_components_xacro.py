@@ -1,0 +1,1 @@
+/home/nfl/husarion_rusak/src/ros_components_description/test/test_components_xacro.py

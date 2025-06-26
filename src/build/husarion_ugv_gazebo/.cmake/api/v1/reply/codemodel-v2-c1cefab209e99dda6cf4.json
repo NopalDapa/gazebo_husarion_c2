@@ -1,0 +1,160 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-072f25371ac57a4ac1bc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "husarion_ugv_gazebo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "EStop::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EStop-Release-cd9001dc7eb803e19c5c.json",
+					"name" : "EStop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "EStop_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EStop_autogen-Release-81aa7bfd89ed47050814.json",
+					"name" : "EStop_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "EStop_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EStop_autogen_timestamp_deps-Release-120c103d3227c8e6aa03.json",
+					"name" : "EStop_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LEDStrip::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LEDStrip-Release-0647b27b02f0f0534f99.json",
+					"name" : "LEDStrip",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LEDStrip_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LEDStrip_autogen-Release-55daaadd72a814ee70f3.json",
+					"name" : "LEDStrip_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LEDStrip_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LEDStrip_autogen_timestamp_deps-Release-f1a1c3d881b0add57904.json",
+					"name" : "LEDStrip_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "estop_system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-estop_system-Release-ff729b0890ac228dd42a.json",
+					"name" : "estop_system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "husarion_ugv_gazebo_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-husarion_ugv_gazebo_uninstall-Release-db7ecfa3a6ae093a9d62.json",
+					"name" : "husarion_ugv_gazebo_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-a4004669457a6c3a0a1e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zone_marker_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zone_marker_node-Release-a0d1f9029fe038b9f472.json",
+					"name" : "zone_marker_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zone_marker_node_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zone_marker_node_autogen-Release-f2b709c137bf2590172e.json",
+					"name" : "zone_marker_node_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zone_marker_node_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zone_marker_node_autogen_timestamp_deps-Release-60a4a055676fef510c2b.json",
+					"name" : "zone_marker_node_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nfl/husarion_rusak/src/build/husarion_ugv_gazebo",
+		"source" : "/home/nfl/husarion_rusak/src/husarion_ugv_ros/husarion_ugv_gazebo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

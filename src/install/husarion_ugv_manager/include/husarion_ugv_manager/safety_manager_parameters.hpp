@@ -1,0 +1,1 @@
+/home/nfl/husarion_rusak/src/build/husarion_ugv_manager/include/husarion_ugv_manager/safety_manager_parameters.hpp

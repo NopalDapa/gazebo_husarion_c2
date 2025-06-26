@@ -1,0 +1,1 @@
+/home/nfl/husarion_rusak/src/husarion_ugv_ros/husarion_ugv_manager/include/husarion_ugv_manager/lights_manager_node.hpp

@@ -1,0 +1,14 @@
+components:
+  - name: zed_camera
+    type: CAM06
+    parent_link: mount_link
+    xyz: 0.25  0.0  0.0
+    rpy: 0.0  0.0  0.0
+    device_namespace: zed
+  # Tambahkan GPS/GNSS sensor
+  - name: gps_antenna
+    type: ANT02
+    parent_link: mount_link
+    xyz: 0.185 -0.12 0.0
+    rpy: 0.0 0.0 3.14
+    device_namespace: gps

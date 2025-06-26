@@ -1,0 +1,1 @@
+/home/nfl/husarion_rusak/src/build/husarion_ugv_msgs/rosidl_generator_cpp/husarion_ugv_msgs/msg/detail/robot_driver_state__type_support.hpp

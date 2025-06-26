@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-10f8ffb544ce3d68e387.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "husarion_ugv_msgs__py",
+					"jsonFile" : "directory-husarion_ugv_msgs__py-Release-eca87323dc0ebc7aaaed.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/nfl/husarion_rusak/src/build/husarion_ugv_msgs/husarion_ugv_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "husarion_ugv_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_husarion_ugv_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_husarion_ugv_msgs_egg-Release-0b82d71227900f037d87.json",
+					"name" : "ament_cmake_python_build_husarion_ugv_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_husarion_ugv_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_husarion_ugv_msgs-Release-739286bb3d09a4301b37.json",
+					"name" : "ament_cmake_python_symlink_husarion_ugv_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "husarion_ugv_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-husarion_ugv_msgs-Release-12c2f05e8aa4959faf28.json",
+					"name" : "husarion_ugv_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "husarion_ugv_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-husarion_ugv_msgs__cpp-Release-3568ed8b3460905508c8.json",
+					"name" : "husarion_ugv_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "husarion_ugv_msgs__py::@924bf51f1ff83ec844a6",
+					"jsonFile" : "target-husarion_ugv_msgs__py-Release-190f2be86f2844dcae6c.json",
+					"name" : "husarion_ugv_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "husarion_ugv_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-husarion_ugv_msgs__rosidl_generator_c-Release-700cd31f73b800963d0d.json",
+					"name" : "husarion_ugv_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "husarion_ugv_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-husarion_ugv_msgs__rosidl_generator_py-Release-736cde3def8400453762.json",
+					"name" : "husarion_ugv_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "husarion_ugv_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-husarion_ugv_msgs__rosidl_generator_type_description-Release-4d0ba5242e22aac0f451.json",
+					"name" : "husarion_ugv_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "husarion_ugv_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-husarion_ugv_msgs__rosidl_typesupport_c-Release-16c1d96d3eb5bb063e8d.json",
+					"name" : "husarion_ugv_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "husarion_ugv_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-husarion_ugv_msgs__rosidl_typesupport_cpp-Release-76abf390fd3df8a8b756.json",
+					"name" : "husarion_ugv_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "husarion_ugv_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-husarion_ugv_msgs__rosidl_typesupport_fastrtps_c-Release-f785a5381ccaad569386.json",
+					"name" : "husarion_ugv_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "husarion_ugv_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-husarion_ugv_msgs__rosidl_typesupport_fastrtps_cpp-Release-bd2160ce91d1094807aa.json",
+					"name" : "husarion_ugv_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "husarion_ugv_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-husarion_ugv_msgs__rosidl_typesupport_introspection_c-Release-ec6bb371edc85aefaef3.json",
+					"name" : "husarion_ugv_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "husarion_ugv_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-husarion_ugv_msgs__rosidl_typesupport_introspection_cpp-Release-c6d30a8144825266e034.json",
+					"name" : "husarion_ugv_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "husarion_ugv_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-husarion_ugv_msgs_s__rosidl_typesupport_c-Release-50c2aed39176aec0be82.json",
+					"name" : "husarion_ugv_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "husarion_ugv_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-husarion_ugv_msgs_s__rosidl_typesupport_fastrtps_c-Release-bf90207af0ef222ac330.json",
+					"name" : "husarion_ugv_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "husarion_ugv_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-husarion_ugv_msgs_s__rosidl_typesupport_introspection_c-Release-ae96ea3250030984227e.json",
+					"name" : "husarion_ugv_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "husarion_ugv_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-husarion_ugv_msgs_uninstall-Release-762ada667182c1c1a54a.json",
+					"name" : "husarion_ugv_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-0c70165e10ec481efc4b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nfl/husarion_rusak/src/build/husarion_ugv_msgs",
+		"source" : "/home/nfl/husarion_rusak/src/husarion_ugv_ros/husarion_ugv_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,1 @@
+/home/nfl/husarion_rusak/src/build/btcpp_ros2_interfaces/rosidl_typesupport_fastrtps_c/btcpp_ros2_interfaces/msg/detail/node_status__rosidl_typesupport_fastrtps_c.h
