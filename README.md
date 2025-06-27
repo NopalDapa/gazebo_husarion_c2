@@ -1,9 +1,22 @@
-Copy this for world folder and paste under directory src/
+# Simulation Challenge 2 ERC 2025 (husarion)
 
-https://drive.google.com/drive/folders/11Ubml4u3VHovA9OksUdfzDcBhFS0fOST?usp=drive_link
+</div>
 
-Copyright
+## Download this folder husarion_gz_worlds and move to directory under src
 
-1.Gazebo and husarion robot : https://github.com/husarion/husarion_ugv_ros
+https://drive.google.com/drive/folders/11Ubml4u3VHovA9OksUdfzDcBhFS0fOST?usp=sharing
 
-2.Map mars and some models  : lupa link wak  
+## Build using step by step in this repo
+
+https://github.com/husarion/husarion_ugv_ros
+
+## Run use this command
+
+ros2 launch husarion_ugv_gazebo simulation.launch.py   robot_model:=panther   use_sim_time:=true   namespace:=robot1   components_config_path:=/home/nfl/husarion_coba/src/husarion_ugv_ros/husarion_ugv_description/config/components.yaml   gz_world:=/home/nfl/husarion_rusak/src/husarion_gz_worlds/worlds/mars_yard.sdf
+
+## Copyright
+1. Husarion_ugv_ros github
+
+https://github.com/husarion/husarion_ugv_ros
+
+2. Some Maps and models
