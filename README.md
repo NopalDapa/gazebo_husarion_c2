@@ -12,7 +12,7 @@ https://github.com/husarion/husarion_ugv_ros
 
 ## Run use this command
 
-ros2 launch husarion_ugv_gazebo simulation.launch.py   robot_model:=panther   use_sim_time:=true   namespace:=robot1   components_config_path:=/home/nfl/husarion_coba/src/husarion_ugv_ros/husarion_ugv_description/config/components.yaml   gz_world:=/home/nfl/husarion_rusak/src/husarion_gz_worlds/worlds/mars_yard.sdf
+ros2 launch husarion_ugv_gazebo simulation.launch.py   robot_model:=panther   use_sim_time:=true   namespace:=robot1   components_config_path:=src/husarion_ugv_ros/husarion_ugv_description/config/components.yaml   gz_world:=(full path to mars_yard.sdf
 
 ## Copyright
 1. Husarion_ugv_ros github
